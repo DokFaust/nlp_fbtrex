@@ -75,6 +75,8 @@ To really appreciate this work you will have to try it out yourself. The Jupyter
 source nlp/bin/activate
 #Create new customized kernel
 python -m ipykernel install --user --name=nlp
+#If the module is not installed you can use
+pip install ipykernel
 ```
 To use this kernel launch Jupyter in the traditional way: "*jupyter-notebook nlp*". A new local webpage will open in your browser. From the navigation bar pick *Kernel -> Change Kernel -> nlp*.  
 

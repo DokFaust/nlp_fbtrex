@@ -1,0 +1,5 @@
+data/*
+*.json
+*.pyc
+.ipynb_checkpoints/*
+*.zip
