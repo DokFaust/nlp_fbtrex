@@ -61,7 +61,7 @@ I reckon that the provided models work fine for my purposes although I'd prefer 
 #Download core English model
 spacy download en_core_web_sm
 #Download Spanish model
-spacy download es_core_web_sm
+spacy download es_core_news_sm
 ```
 For phrase modeling, topic mining and word2vec analyss we are actually going to use gensim, a less newer library than spacy, but still up-to-date.
 ```
